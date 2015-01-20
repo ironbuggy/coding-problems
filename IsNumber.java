@@ -13,8 +13,7 @@ public class IsNumber {
     }
 
     // Write a function to determine if a string is a number without using any built-in function.
-    public static boolean IsNumber(String num)
-    {
+    public static boolean IsNumber(String num) {
         // corner cases
         if (num.isEmpty()) {
             return false;
