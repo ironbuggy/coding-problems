@@ -9,14 +9,13 @@ package com.mindbottle;
 public class MaxLengthPalindrome {
 
     public static void main(String[] args) {
-
         // Note: Array initialisation
         int[] nums = new int[]{1, 2, 3, 2, 1, 6, 1, 2, 3, 2};
 
         System.out.println(MaxLengthPalindrome(nums));
     }
 
-    // O(N2) time and O(N2) space
+    // O(N2) runtime and O(N2) space
     public static int MaxLengthPalindrome(int[] values) {
         int n = values.length;
         int maxlen=1;
